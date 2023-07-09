@@ -88,7 +88,7 @@ header li a {
   margin-bottom: 128px;
 }
 
-.about, .donation, .adoption, .tutor, .contato {
+#about, #donation, #adoption, #tutor, #contato {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 128px;
@@ -98,11 +98,11 @@ header li a {
   align-items: center;
 }
 
-.about h1 {
+#about h1 {
   color: #5271FF;
 }
 
-.about-title {
+#about-title {
   display: flex;
   justify-content: center;
 }
@@ -155,7 +155,7 @@ header li a {
   font-weight: bold;
 }
 
-.bazar {
+#bazar {
   margin-bottom: 128px;
   display: flex;
   flex-direction: column;
