@@ -17,10 +17,26 @@ h1 {
   line-height: 2.5em;
 }
 
+h2 {
+  font-size: x-large;
+  font-family: 'Yusei Magic', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
 p {
   text-align: justify;
   line-height: 2em;
-  margin-bottom: 14px;
+  margin-bottom: 8px;
+  font-size: med;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 header {
@@ -72,7 +88,7 @@ header li a {
   margin-bottom: 128px;
 }
 
-.about, .donation {
+.about, .donation, .adoption, .tutor, .contato {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 128px;
@@ -104,10 +120,6 @@ header li a {
   margin-top: 64px;
 }
 
-.donation {
-  font-size: larger;
-}
-
 .donation-title {
   width: 100%;
   display: flex;
@@ -115,9 +127,251 @@ header li a {
   align-items: center;
 }
 
+.donation-title h1 {
+  position: absolute;
+}
+
 .donation-title img {
-  margin-right: -165px;
-  z-index: -100;
   width: 200px;
   height: 200px;
+}
+
+.payments {
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.method {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.method .chavepix {
+  font-size: small;
+  font-weight: bold;
+}
+
+.bazar {
+  margin-bottom: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bazar-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  margin-bottom: -30px;
+}
+
+.bazar-title h1 {
+  color: #08BAB2;
+  position: absolute;
+}
+
+.bazar-icon {
+  width: 200px;
+  transform: rotate(45deg);
+}
+
+
+.bazar-items {
+  display: flex;
+  padding-left: 15%;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 80%;
+  min-height: 305px;
+  min-width: 205px;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 8px;
+}
+
+.item h2 {
+  text-align: start;
+  margin-bottom: 2px;
+}
+
+.item img {
+  width: 150px;
+  object-fit: cover;
+  align-self: center;
+}
+
+.item a {
+  text-decoration: none;
+  color: #FFF;
+  font-weight: bold;
+  font-size: medium;
+  text-align: center;
+  margin-top: 54px;
+}
+
+.item a:hover {
+  text-decoration: underline;
+}
+
+.ciano {
+  background-color: #08BAB2;
+}
+
+.red-item {
+  background-color: #FF3131;
+}
+
+.title-item {
+  color: #fff;
+  font-size: larger;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+}
+
+.price {
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 8px;
+}
+
+.see-more {
+  font-size: large;
+  font-family: 'Yusei Magic', sans-serif;
+  color: #08BAB2;
+  margin-top: 16px;
+  font-weight: bold;
+  overflow-x: hidden;
+  text-decoration: underline;
+}
+
+.see-more:hover {
+  color: #000;
+}
+
+.adoption-title {
+  display: flex;
+  justify-content: center;
+}
+
+.adoption-icon, .tutor-icon {
+  margin-right: 12px;
+  width: 60px;
+  height: 60px;
+}
+
+.adoption .description {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.adoption .dog-icon {
+  width: 300px;
+  height: 300px;
+}
+
+.adoption p {
+  font-size: large;
+  line-height: 1.3em;
+}
+
+.adoption .notation {
+  font-size: small;
+}
+
+.whatsapp-button {
+  background-color: #25D366;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: medium;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  text-decoration: none;
+  max-width: 280px;
+}
+
+.whatsapp-button:hover {
+  background-color: #1DAE5F;
+  text-decoration: none;
+}
+
+.tutor-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tutor-title h1 {
+  color: #5E17EB;
+}
+
+.dogs {
+  display: flex;
+}
+
+.dogs img {
+  width: 260px;
+  margin: 8px;
+}
+
+.contato-title {
+  color: #5271FF;
+}
+
+.socials {
+  display: flex;
+}
+
+.social {
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.social img {
+  width: 100px;
+  margin-bottom: 4px;
+}
+
+footer {
+
+}
+
+footer img {
+  width: 40px;
+  margin-right: 16px;
+}
+
+footer {
+  background-color: #FF3131;
+  min-height: 100px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: #fff
 }
