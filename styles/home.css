@@ -121,6 +121,11 @@
   justify-content: space-around;
 }
 
+
+.description .text {
+  width: 40%;
+}
+
 #adoption .dog-icon {
   width: 300px;
   height: 300px;
@@ -178,4 +183,54 @@
 .social img {
   width: 100px;
   margin-bottom: 4px;
+}
+
+@media (max-width: 1015px) {
+  #about, #donation, #adoption, #tutor, #contato {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .dogs {
+    flex-direction: column;
+  }
+
+  .description {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .description .text {
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #adoption .dog-icon {
+    width: 200px;
+    height: 200px;
+  }
+
+  #adoption {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #adoption p {
+    font-size: large;
+  }
+
+  .image-dog-1 {
+    width: 45%;
+    height: 45%;
+  }
+
+  .payments {
+    flex-direction: column;
+    gap: 36px;
+  }
 }
