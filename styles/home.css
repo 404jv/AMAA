@@ -104,20 +104,6 @@
   margin: 8px;
 }
 
-.see-more {
-  font-size: large;
-  font-family: 'Yusei Magic', sans-serif;
-  color: #08BAB2;
-  margin-top: 16px;
-  font-weight: bold;
-  overflow-x: hidden;
-  text-decoration: underline;
-}
-
-.see-more:hover {
-  color: #000;
-}
-
 .adoption-title {
   display: flex;
   justify-content: center;
@@ -147,22 +133,6 @@
 
 #adoption .notation {
   font-size: small;
-}
-
-.whatsapp-button {
-  background-color: #25D366;
-  color: #ffffff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 12px;
-  font-size: medium;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 16px;
-  text-decoration: none;
-  max-width: 280px;
 }
 
 .whatsapp-button:hover {

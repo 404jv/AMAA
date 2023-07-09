@@ -1,0 +1,59 @@
+main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.quote {
+  width: 75%;
+  font-size: medium;
+  line-height: normal;
+}
+
+.item-title {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.item-title h1 {
+  color: #08BAB2;
+}
+
+.item-icon {
+  width: 80px;
+  margin-left: 16px;
+  transform: rotate(85deg);
+}
+
+.description {
+  width: 50%;
+  text-align: left;
+  display: flex;
+}
+
+.description img {
+  margin-right: 8px;
+  width: 40%;
+}
+
+.tutor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  font-size: large;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 64px;
+}
+
+.tutor-title {
+  color: #5E17EB;
+}

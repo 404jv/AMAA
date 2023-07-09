@@ -1,0 +1,43 @@
+main {
+  margin-top: 32px;
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.tutor-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.tutor-title h1 {
+  color: #5E17EB;
+}
+
+.tutor-icon {
+  margin-right: 12px;
+  width: 60px;
+  height: 60px;
+}
+
+.dogs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.dogs img {
+  width: 60%;
+}
+
+.dog {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
