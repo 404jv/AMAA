@@ -1,0 +1,35 @@
+main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-title {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.item-title h1 {
+  color: #08BAB2;
+}
+
+.item-icon {
+  width: 80px;
+  margin-left: 16px;
+  transform: rotate(85deg);
+}
+
+.alert {
+  font-size: small;
+  color: #FF3131;
+}
+
+.description {
+  width: 50%;
+  text-align: left;
+}
