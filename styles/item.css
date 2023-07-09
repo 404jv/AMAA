@@ -4,6 +4,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 64px;
 }
 
 .item-title {
@@ -32,4 +33,75 @@ main {
 .description {
   width: 50%;
   text-align: left;
+}
+
+.photo {
+  width: 50%;
+}
+
+.background {
+  background-color: #08BAB2;
+  border-radius: 8px;
+}
+
+.photo img {
+  width: 30%;
+  padding: 16px;
+}
+
+.item-price {
+  font-weight: bold;
+  color: #25D366;
+  font-size: larger;
+  text-align: left;
+}
+
+.donation-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donation-title h1 {
+  position: absolute;
+}
+
+.donation-title img {
+  margin-right: 19%;
+  width: 200px;
+  height: 200px;
+}
+
+.payments {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 64px;
+}
+
+.method {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.method .chavepix {
+  font-size: small;
+  font-weight: bold;
+}
+
+#thankyou {
+  margin-bottom: 64px;
+}
+
+.dogs {
+  display: flex;
+  justify-content: center;
+}
+
+.dogs img {
+  width: 20%;
+  margin: 8px;
 }
