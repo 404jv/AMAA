@@ -210,3 +210,76 @@ footer a {
   font-size: small;
   font-weight: bold;
 }
+
+@media (max-width: 810px) {
+  header {
+    padding: 1rem 1rem;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  .one, .two, .three {
+    background-color: #000;
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
+    border-radius: 4px;
+
+    transition-duration: 0.3s;
+  }
+
+  .menu-toggle {
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+
+  }
+
+  .menu-section.on {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 10;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-section.on ul {
+    display: block;
+  }
+
+  .menu-section.on .menu-toggle {
+    position: absolute;
+    right: 0;
+    top: 15px
+  }
+
+  .menu-section.on .menu-toggle .one {
+    transform: rotate(45deg) translate(7px, 7px);
+  }
+
+  .menu-section.on .menu-toggle .two {
+    opacity: 0;
+  }
+
+  .menu-section.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(8px, -9px);
+  }
+
+  .menu-section.on ul {
+    text-align: center;
+  }
+
+  .menu-section.on ul a {
+    transition-duration: 0.5s;
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+}
