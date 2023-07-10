@@ -87,7 +87,6 @@
 
 .bazar-items {
   display: flex;
-  padding-left: 15%;
   justify-content: center;
   align-items: center;
 }
@@ -191,6 +190,40 @@
     margin-right: 5%;
   }
 
+  #about p {
+    text-align: justify;
+  }
+
+  .payments {
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  .method h2 {
+    font-size: x-large;
+  }
+
+  .method span {
+    font-size: large;
+  }
+  
+  .method .chavepix {
+    font-size: small;
+    font-weight: bold;
+  }
+
+  .bazar-items {
+    flex-wrap: wrap;
+  }
+
+  .item {
+    width: 30%;
+  }
+
+  #bazar p, #donation p, #adoption p, #tutor p, #contato p {
+    text-align: center;
+  }
+
   .dogs {
     flex-direction: column;
   }
@@ -229,8 +262,15 @@
     height: 45%;
   }
 
-  .payments {
+  .socials {
     flex-direction: column;
     gap: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-dog-1 {
+    width: 65%;
+    height: 65%;
   }
 }
