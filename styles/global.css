@@ -210,6 +210,26 @@ footer a {
   font-weight: bold;
 }
 
+@media (max-width: 1015px) {
+  .payments {
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  .method h2 {
+    font-size: x-large;
+  }
+
+  .method span {
+    font-size: large;
+  }
+
+  .method .chavepix {
+    font-size: small;
+    font-weight: bold;
+  }
+}
+
 @media (max-width: 810px) {
   header {
     padding: 4px;

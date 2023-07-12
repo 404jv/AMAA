@@ -193,25 +193,7 @@
   #about p {
     text-align: justify;
   }
-
-  .payments {
-    flex-direction: column;
-    gap: 36px;
-  }
-
-  .method h2 {
-    font-size: x-large;
-  }
-
-  .method span {
-    font-size: large;
-  }
   
-  .method .chavepix {
-    font-size: small;
-    font-weight: bold;
-  }
-
   .bazar-items {
     flex-wrap: wrap;
   }
