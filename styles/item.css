@@ -25,11 +25,6 @@ main {
   transform: rotate(85deg);
 }
 
-.alert {
-  font-size: small;
-  color: #FF3131;
-}
-
 .description {
   width: 50%;
   text-align: left;
@@ -85,4 +80,51 @@ main {
 .dogs img {
   width: 20%;
   margin: 8px;
+}
+
+@media (max-width: 1284px) {
+  .description img {
+    margin-right: 8px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .description {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .description p {
+    text-align: center;
+  }
+
+  .photo img {
+    width: 90%;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: x-large;
+  }
+
+  .item-icon {
+    width: 40px;
+  }
+
+  p {
+    font-size: large;
+  }
+
+  .dogs {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dogs img {
+    width: 50%;
+  }
 }
