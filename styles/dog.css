@@ -58,6 +58,11 @@ main {
   color: #5E17EB;
 }
 
+p {
+  font-size: medium;
+  width: 80%;
+}
+
 @media (max-width: 1284px) {
   .description img {
     margin-right: 8px;
@@ -84,6 +89,11 @@ main {
   .quote {
     width: 90%;
   }
+
+  p {
+    font-size: large;
+    width: 100%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -93,9 +103,5 @@ main {
 
   .item-icon {
     width: 40px;
-  }
-
-  p {
-    font-size: large;
   }
 }

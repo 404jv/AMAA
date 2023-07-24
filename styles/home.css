@@ -24,6 +24,10 @@
   color: #5271FF;
 }
 
+#about p {
+  text-align: justify;
+}
+
 .about-title {
   display: flex;
   justify-content: center;
@@ -56,25 +60,6 @@
 .donation-title img {
   width: 200px;
   height: 200px;
-}
-
-.payments {
-  width: 100%;
-  margin-top: 32px;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.method {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.method .chavepix {
-  font-size: small;
-  font-weight: bold;
 }
 
 #bazar {
@@ -169,6 +154,7 @@
 
 .socials {
   display: flex;
+  gap: 45px;
 }
 
 .social {
@@ -190,10 +176,6 @@
     margin-right: 8px;
   }
 
-  #about p {
-    text-align: justify;
-  }
-  
   .bazar-items {
     flex-wrap: wrap;
   }
