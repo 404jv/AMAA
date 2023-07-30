@@ -39,7 +39,7 @@ main {
 
 .description img {
   margin-right: 8px;
-  width: 40%;
+  width: 50%;
 }
 
 .tutor {
@@ -59,27 +59,20 @@ main {
 }
 
 p {
-  font-size: medium;
+  font-size: large;
   width: 80%;
 }
 
-@media (max-width: 1284px) {
-  .description img {
-    margin-right: 8px;
-    width: 70%;
-  }
-}
-
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .description {
-    flex-direction: column;
     width: 100%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
   .description img {
-    width: 35%;
+    width: 30%;
   }
   
   .description p {
@@ -89,11 +82,21 @@ p {
   .quote {
     width: 90%;
   }
+}
+
+@media (max-width: 800px) {
+  span {
+    font-size: small;
+  }
 
   p {
-    font-size: large;
-    width: 100%;
+    font-size: medium;
   }
+
+  .description img {
+    width: 50%;
+  }
+  
 }
 
 @media (max-width: 500px) {
@@ -104,4 +107,5 @@ p {
   .item-icon {
     width: 40px;
   }
+
 }
