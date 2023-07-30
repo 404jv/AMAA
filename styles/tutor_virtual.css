@@ -41,3 +41,18 @@ main {
   align-items: center;
   margin-bottom: 32px;
 }
+
+
+@media (max-width: 1000px) {
+  .dogs {
+    flex-direction: column;
+  }
+
+  .dog {
+    width: 60%;
+  }
+
+  .dog img {
+    width: 100%;
+  }
+}
