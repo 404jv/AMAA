@@ -1,0 +1,18 @@
+main {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+main .names {
+  display: flex;
+  gap: 42px;
+  text-align: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 1015px) {
+  main .names {
+      flex-direction: column;
+  }
+}
