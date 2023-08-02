@@ -10,9 +10,28 @@ main .names {
   justify-content: center;
 }
 
+.alunos-foto {
+  width: 60%;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.logos {
+  margin-bottom: 8px;
+}
 
 @media (max-width: 1015px) {
   main .names {
       flex-direction: column;
+  }
+
+  .alunos-foto {
+    width: 90%;
   }
 }
