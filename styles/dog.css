@@ -65,7 +65,20 @@ p {
 }
 
 @media (max-width: 1200px) {
-  .description {
+  .payment {
+    padding: 8px;
+  }
+
+  .tutor {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+
+  p {
+    width: 100%;
+  }
+  
+  main .description {
     width: 100%;
     flex-direction: column;
     justify-content: center;
