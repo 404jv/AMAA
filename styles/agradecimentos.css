@@ -12,6 +12,8 @@ main .names {
 
 .alunos-foto {
   width: 60%;
+  object-fit: cover;
+  margin-bottom: 8px;
 }
 
 .images {
